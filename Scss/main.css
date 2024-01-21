@@ -512,6 +512,43 @@ footer .container .forth h4 {
   font-weight: 700;
   line-height: 30px; /* 166.667% */
 }
+footer .bor {
+  margin: 0 auto;
+  width: 1290px;
+  height: 1px;
+  background: #fff;
+  opacity: 0.2;
+}
+footer .copy-right {
+  margin-top: 30px;
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copy-right p {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  opacity: 0.7;
+  padding: 30px 0;
+}
+footer .copy-right .ri {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .copy-right .ri li {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
 
 h2 {
   text-align: center;
