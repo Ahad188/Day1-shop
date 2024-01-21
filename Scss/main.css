@@ -8,10 +8,6 @@
   border: none;
 }
 
-h2 {
-  color: rgb(0, 255, 26);
-}
-
 header {
   max-width: 1920px;
   height: 70px;
@@ -41,6 +37,7 @@ header ul li span {
   font-weight: 400;
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.36px;
+  margin-right: 3px;
 }
 header ul li .fa-brands {
   color: #05092B;
@@ -112,6 +109,43 @@ nav .btn span {
   font-size: 18px;
   font-weight: 700;
   line-height: 30px; /* 166.667% */
+}
+
+section {
+  max-width: 1920px;
+  height: 440px;
+  background-image: url("../../img/Rectangle-3096.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+  position: relative;
+  background: linear-gradient(to right, rgba(128, 128, 128, 0.119));
+}
+section h2 {
+  color: #FFF;
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px; /* 113.514% */
+  letter-spacing: -1.48px;
+  top: 150px;
+  left: 45%;
+  position: absolute;
+}
+section .title {
+  position: absolute;
+  top: 270px;
+  left: 46%;
+}
+section .title i {
+  color: #FFF;
+}
+section .title span {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 0 4px;
 }
 
 h2 {
