@@ -1,0 +1,42 @@
+@use '../Util/index' as index;
+
+header{
+     max-width: 1920px;
+     height: 70px;
+     
+     padding: 0px 315px;
+     background: index.$bg-color;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     ul{
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          li{
+               .fa-solid {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 900;
+                    background: var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+               };
+               span{
+                    color: #05092B;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px; /* 155.556% */
+                    letter-spacing: -0.36px;
+               }
+               .fa-brands{
+                    color:  #05092B;
+                    font-size: 15px;
+                    font-weight: 400;
+                    width: 10px;
+                    height: 14.973px;
+               }
+          }
+     }
+}
