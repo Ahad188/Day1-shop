@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:ital,wght@0,900;1,300&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,10 @@
   text-decoration: none;
   outline: none;
   border: none;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 header {
@@ -111,18 +116,28 @@ nav .btn span {
   line-height: 30px; /* 166.667% */
 }
 
-section {
+.brad-clambr {
   max-width: 1920px;
   height: 440px;
   background-image: url("../../img/Rectangle-3096.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 999;
+  z-index: 1;
   position: relative;
-  background: linear-gradient(to right, rgba(128, 128, 128, 0.119));
 }
-section h2 {
+.brad-clambr::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #05092B;
+  opacity: 0.5;
+}
+.brad-clambr h2 {
   color: #FFF;
   font-size: 74px;
   font-weight: 700;
@@ -132,20 +147,134 @@ section h2 {
   left: 45%;
   position: absolute;
 }
-section .title {
+.brad-clambr .title {
   position: absolute;
   top: 270px;
   left: 46%;
 }
-section .title i {
+.brad-clambr .title i {
   color: #FFF;
 }
-section .title span {
+.brad-clambr .title span {
   color: #FFF;
   font-size: 22px;
   font-weight: 700;
   line-height: 36px;
   padding: 0 4px;
+}
+
+.container {
+  width: 1290px;
+  margin: 120px auto;
+}
+.container .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.container .search h3 {
+  color: var(--900, #05092B);
+  font-family: "Space Grotesk";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+.container .search .search-2 {
+  background: #F9F9F9;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 667px;
+}
+.container .search .search-2 .text {
+  color: #737373;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  padding: 12px 219px 11px 20px;
+}
+.container .search .search-2 .btn {
+  width: 80px;
+  height: 51px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  padding: 19px 33px;
+}
+.container .search .search-2 .btn i {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: normal;
+}
+.container .box {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.container .box .card {
+  width: 410px;
+  height: 463px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
+}
+.container .box .card .body {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.container .box .card .body h3 {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 5px; /* 163.636% */
+}
+.container .box .card .body li {
+  font-size: 10.492px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 30px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .box .card .body .price {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  display: inline-block; /* 163.636% */
+}
+.container .box .card .body .btn {
+  height: 60px;
+  padding: 20px 40px;
+  display: inline-flex;
+  border-radius: 5px;
+  border: 1px solid #351EE0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  gap: 50px;
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.container .box .card .body .btn:hover {
+  color: #FFF;
+  border-radius: 5px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
 }
 
 h2 {
