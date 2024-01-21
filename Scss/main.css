@@ -277,6 +277,69 @@ nav .btn span {
   background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
 }
 
+.conected {
+  max-width: 1290px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.conected .left {
+  background: #351EE0;
+  border-radius: 0% 100% 24% 76%/100% 100% 0% 0%;
+}
+.conected .left img {
+  bottom: 50%;
+  width: 546px;
+}
+.conected .text h2 {
+  color: #05092B;
+  width: 595px;
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 68px; /* 113.333% */
+  letter-spacing: -1.48px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.conected .text h2 span {
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Space Grotesk";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.48px;
+  text-transform: capitalize;
+}
+.conected .text .btn {
+  height: 60px;
+  padding: 20px 40px;
+  display: inline-flex;
+  border-radius: 5px;
+  border: 1px solid #351EE0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 50px;
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.conected .text .btn:hover {
+  color: #FFF;
+  border-radius: 5px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+}
+
 h2 {
   text-align: center;
 }/*# sourceMappingURL=main.css.map */
