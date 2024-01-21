@@ -5,6 +5,7 @@
   list-style-type: none;
   text-decoration: none;
   outline: none;
+  border: none;
 }
 
 h2 {
@@ -47,6 +48,70 @@ header ul li .fa-brands {
   font-weight: 400;
   width: 10px;
   height: 14.973px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 316px 0 314px;
+  max-width: 1920pz;
+  height: 100px;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .logo img {
+  width: 40px;
+  height: 40px;
+}
+nav .logo h3 {
+  color: #05092B;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 68px; /* 226.667% */
+  letter-spacing: -1.48px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+nav ul li a span {
+  color: #05092B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+nav ul li a .fa-solid {
+  color: #05092B;
+  font-size: 10px;
+  font-weight: 900;
+}
+nav ul li:hover span {
+  text-decoration: underline;
+}
+nav .btn {
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+nav .btn span {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
 }
 
 h2 {
